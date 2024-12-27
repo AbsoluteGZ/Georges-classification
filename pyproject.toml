@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "content"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.3"
+requests = "^2.32.3"
+gdown = "^5.2.0"
+tensorflow = "^2.18.0"
+scikit-learn = "^1.6.0"
+pillow = "^11.0.0"
+matplotlib = "^3.10.0"
+seaborn = "^0.13.2"
+tqdm = "^4.67.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
